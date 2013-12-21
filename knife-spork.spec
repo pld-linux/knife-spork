@@ -1,7 +1,7 @@
 Summary:	Chef knife workflow plugin
 Name:		knife-spork
 Version:	1.3.0
-Release:	0.1
+Release:	0.2
 License:	GPL v2+ or Ruby
 Group:		Development/Languages
 Source0:	http://rubygems.org/downloads/%{name}-%{version}.gem
@@ -9,7 +9,7 @@ Source0:	http://rubygems.org/downloads/%{name}-%{version}.gem
 URL:		https://github.com/jonlives/knife-spork
 BuildRequires:	rpm-rubyprov
 BuildRequires:	rpmbuild(macros) >= 1.656
-Requires:	chef >= 11.0.0
+Requires:	knife >= 11.0.0
 Requires:	ruby-app_conf >= 0.4.0
 Requires:	ruby-diffy >= 3.0.1
 Requires:	ruby-git >= 1.2.5
